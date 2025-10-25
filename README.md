@@ -5,7 +5,7 @@ Minimal Roblox audio helper: downloads once, caches, and plays a sound immediate
 
 ## Example
 ```lua
-local ENJOY = loadstring(game:HttpGet("https://raw.githubusercontent.com/localscripts/ENJOY/refs/heads/main/test.lua"))()
+local ENJOY = loadstring(game:HttpGet("https://raw.githubusercontent.com/localscripts/ENJOY/refs/heads/main/main.lua"))()
 ENJOY.Play("https://github.com/localscripts/Audio/raw/refs/heads/main/Hitsound/Rust.wav", 1, 1)
 ````
 
