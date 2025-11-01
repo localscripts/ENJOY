@@ -1,4 +1,10 @@
-Perfect — here’s a clean, ready-to-share **GaugeLib documentation file header**, specifically for the **HTTP (loadstring)** setup.
+
+
+**NOT FINISHED!!! DOCS BY AI CUZ ALOT MIGHT CHANGE, PLS FORK IF U WANT TO USE THIS:**
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/9b10e384-1167-41d1-83fc-40611eabbe39" />
+
+
+
 
 It includes:
 
@@ -181,6 +187,3 @@ local DEFAULTS = {
 * No local `require` needed — pure HTTP import.
 * For best results, host on **raw GitHub** or **your own API** for auto-updates.
 
----
-
-Would you like me to make a **“self-hosting boilerplate” version** (so you can easily deploy to your own URL with custom defaults and version tags)?
