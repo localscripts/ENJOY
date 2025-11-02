@@ -39,10 +39,10 @@ It’s designed for simplicity and performance — download once, then reuse loc
 
 ```lua
 -- Load the module (example hosting)
-local ENJOY = loadstring(game:HttpGet('https://api.voxlis.net/test.txt'))()
+local ENJOY = loadstring(game:HttpGet('https://raw.githubusercontent.com/localscripts/ENJOY/refs/heads/main/Visuals/AudioENJOY/1.0.1.lua'))()
 
 -- Play a sound
-local sound = ENJOY.Play('https://api.voxlis.net/u-have-no-heart-mp3.mp3', {
+local sound = ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/main/Visuals/AudioENJOY/Audios/u-have-no-heart.mp3', {
     pitch  = 1,        -- Playback speed
     volume = 1,        -- Volume level
     looped = false,    -- true to loop continuously
@@ -94,9 +94,9 @@ A Roblox `Sound` instance, or `nil` if the download fails.
 **Example:**
 
 ```lua
-local sound = ENJOY.Play('https://example.com/music.mp3', {
-    pitch = 1.1,
-    volume = 0.8,
+local sound = ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/main/Visuals/AudioENJOY/Audios/u-have-no-heart.mp3', {
+    pitch = 20,
+    volume = 10,
     looped = true,
     parent = workspace
 })
@@ -123,7 +123,7 @@ Stops and destroys a specific sound created by ENJOY.
 **Example:**
 
 ```lua
-local s = ENJOY.Play('https://example.com/sound.mp3', { looped = true })
+local s = ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/main/Visuals/AudioENJOY/Audios/u-have-no-heart.mp3', { looped = true })
 wait(5)
 ENJOY.Destroy(s)  -- stops and deletes the sound
 ```
@@ -137,9 +137,10 @@ Stops and destroys **all active sounds** created by ENJOY.
 **Example:**
 
 ```lua
-ENJOY.Play('https://example.com/hit1.wav')
-ENJOY.Play('https://example.com/hit2.wav')
-wait(2)
+ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/main/Visuals/AudioENJOY/Audios/u-have-no-heart.mp3')
+wait()
+ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/main/Visuals/AudioENJOY/Audios/u-have-no-heart.mp3')
+wait(1)
 ENJOY.StopAll()  -- stops and cleans up both
 ```
 
