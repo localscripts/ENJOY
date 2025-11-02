@@ -1,7 +1,7 @@
 ```lua
-local OVERLAY = loadstring(game:HttpGet('https://raw.githubusercontent.com/localscripts/ENJOY/refs/heads/main/Visuals/FlashENJOY/1.0.lua'))()
+local FlashENJOY = loadstring(game:HttpGet('https://raw.githubusercontent.com/localscripts/ENJOY/refs/heads/main/Visuals/FlashENJOY/1.0.lua'))()
 
-OVERLAY.Flash({
+FlashENJOY.Flash({
     color = Color3.fromRGB(51, 102, 2045),
     opacity = 0.45,
     timeIn = 0.1,
