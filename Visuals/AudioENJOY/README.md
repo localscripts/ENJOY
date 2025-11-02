@@ -49,9 +49,10 @@ local sound = ENJOY.Play('https://github.com/localscripts/ENJOY/raw/refs/heads/m
     parent = workspace -- Optional, defaults to workspace
 })
 
+task.wait(1)
+
 -- Stop and destroy this sound
 ENJOY.Destroy(sound)
-
 -- Stop and destroy all active sounds
 ENJOY.StopAll()
 ```
